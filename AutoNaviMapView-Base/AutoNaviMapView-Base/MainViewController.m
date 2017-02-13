@@ -161,6 +161,7 @@
         _mapView.showsUserLocation = YES;
         _mapView.userTrackingMode = MAUserTrackingModeNone;
         _mapView.delegate = self;
+        _mapView.rotateEnabled = YES;
         _mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [_mapView setZoomLevel:(17.2f) animated:YES];
         _mapView.customizeUserLocationAccuracyCircleRepresentation = YES;
