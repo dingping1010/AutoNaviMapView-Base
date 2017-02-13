@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65494801E51557E00F1FA87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A654947F1E51557E00F1FA87 /* main.m */; };
+		A65494831E51557E00F1FA87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494821E51557E00F1FA87 /* AppDelegate.m */; };
+		A654948B1E51557E00F1FA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A654948A1E51557E00F1FA87 /* Assets.xcassets */; };
+		A654948E1E51557E00F1FA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A654948C1E51557E00F1FA87 /* LaunchScreen.storyboard */; };
+		A65494991E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494981E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m */; };
+		A65494A41E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494A31E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m */; };
+		A65494B51E5155CB00F1FA87 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494B21E5155CB00F1FA87 /* AMapSearchKit.framework */; };
+		A65494BB1E5156D400F1FA87 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494B71E5156D400F1FA87 /* CustomAnnotationView.m */; };
+		A65494BC1E5156D400F1FA87 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494BA1E5156D400F1FA87 /* CustomAnnotation.m */; };
+		A65494BF1E51575500F1FA87 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494BE1E51575500F1FA87 /* CoreTelephony.framework */; };
+		A65494C11E51575D00F1FA87 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C01E51575D00F1FA87 /* CoreLocation.framework */; };
+		A65494C31E51576600F1FA87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C21E51576600F1FA87 /* SystemConfiguration.framework */; };
+		A65494C51E51577000F1FA87 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C41E51577000F1FA87 /* JavaScriptCore.framework */; };
+		A65494C71E51577900F1FA87 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C61E51577900F1FA87 /* Security.framework */; };
+		A65494C91E51578800F1FA87 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C81E51578800F1FA87 /* libstdc++.6.0.9.tbd */; };
+		A65494CB1E51579100F1FA87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494CA1E51579100F1FA87 /* libz.tbd */; };
+		A65494CD1E51579D00F1FA87 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494CC1E51579D00F1FA87 /* libc++.tbd */; };
+		A65494D11E518B7900F1FA87 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494D01E518B7900F1FA87 /* AMapFoundationKit.framework */; };
+		A65494D31E518B9500F1FA87 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494D21E518B9500F1FA87 /* MAMapKit.framework */; };
+		A65494D51E518BBF00F1FA87 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A65494D41E518BBF00F1FA87 /* AMap.bundle */; };
+		A65494DD1E518CA700F1FA87 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494D81E518CA700F1FA87 /* RECommonFunctions.m */; };
+		A65494DE1E518CA700F1FA87 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494DA1E518CA700F1FA87 /* RESideMenu.m */; };
+		A65494DF1E518CA700F1FA87 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494DC1E518CA700F1FA87 /* UIViewController+RESideMenu.m */; };
+		A65494E21E518CF300F1FA87 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494E11E518CF300F1FA87 /* MainViewController.m */; };
+		A65494E51E518E2400F1FA87 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494E41E518E2400F1FA87 /* MenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65494951E51557F00F1FA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65494731E51557E00F1FA87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A654947A1E51557E00F1FA87;
+			remoteInfo = "AutoNaviMapView-Base";
+		};
+		A65494A01E51557F00F1FA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65494731E51557E00F1FA87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A654947A1E51557E00F1FA87;
+			remoteInfo = "AutoNaviMapView-Base";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A654947B1E51557E00F1FA87 /* AutoNaviMapView-Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoNaviMapView-Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A654947F1E51557E00F1FA87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A65494811E51557E00F1FA87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A65494821E51557E00F1FA87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A654948A1E51557E00F1FA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A654948D1E51557E00F1FA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A654948F1E51557E00F1FA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65494941E51557F00F1FA87 /* AutoNaviMapView-BaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoNaviMapView-BaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65494981E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoNaviMapView_BaseTests.m; sourceTree = "<group>"; };
+		A654949A1E51557F00F1FA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A654949F1E51557F00F1FA87 /* AutoNaviMapView-BaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoNaviMapView-BaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65494A31E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoNaviMapView_BaseUITests.m; sourceTree = "<group>"; };
+		A65494A51E51557F00F1FA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65494B21E5155CB00F1FA87 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		A65494B71E5156D400F1FA87 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		A65494B81E5156D400F1FA87 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		A65494B91E5156D400F1FA87 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		A65494BA1E5156D400F1FA87 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		A65494BE1E51575500F1FA87 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A65494C01E51575D00F1FA87 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A65494C21E51576600F1FA87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A65494C41E51577000F1FA87 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A65494C61E51577900F1FA87 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A65494C81E51578800F1FA87 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		A65494CA1E51579100F1FA87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A65494CC1E51579D00F1FA87 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A65494D01E518B7900F1FA87 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		A65494D21E518B9500F1FA87 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		A65494D41E518BBF00F1FA87 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		A65494D71E518CA700F1FA87 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		A65494D81E518CA700F1FA87 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		A65494D91E518CA700F1FA87 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		A65494DA1E518CA700F1FA87 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		A65494DB1E518CA700F1FA87 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		A65494DC1E518CA700F1FA87 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		A65494E01E518CF300F1FA87 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A65494E11E518CF300F1FA87 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A65494E31E518E2400F1FA87 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A65494E41E518E2400F1FA87 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65494781E51557E00F1FA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65494D11E518B7900F1FA87 /* AMapFoundationKit.framework in Frameworks */,
+				A65494CD1E51579D00F1FA87 /* libc++.tbd in Frameworks */,
+				A65494D31E518B9500F1FA87 /* MAMapKit.framework in Frameworks */,
+				A65494CB1E51579100F1FA87 /* libz.tbd in Frameworks */,
+				A65494C91E51578800F1FA87 /* libstdc++.6.0.9.tbd in Frameworks */,
+				A65494C71E51577900F1FA87 /* Security.framework in Frameworks */,
+				A65494C51E51577000F1FA87 /* JavaScriptCore.framework in Frameworks */,
+				A65494C31E51576600F1FA87 /* SystemConfiguration.framework in Frameworks */,
+				A65494C11E51575D00F1FA87 /* CoreLocation.framework in Frameworks */,
+				A65494BF1E51575500F1FA87 /* CoreTelephony.framework in Frameworks */,
+				A65494B51E5155CB00F1FA87 /* AMapSearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65494911E51557F00F1FA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A654949C1E51557F00F1FA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65494721E51557E00F1FA87 = {
+			isa = PBXGroup;
+			children = (
+				A654947D1E51557E00F1FA87 /* AutoNaviMapView-Base */,
+				A65494971E51557F00F1FA87 /* AutoNaviMapView-BaseTests */,
+				A65494A21E51557F00F1FA87 /* AutoNaviMapView-BaseUITests */,
+				A654947C1E51557E00F1FA87 /* Products */,
+				A65494BD1E51575500F1FA87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A654947C1E51557E00F1FA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A654947B1E51557E00F1FA87 /* AutoNaviMapView-Base.app */,
+				A65494941E51557F00F1FA87 /* AutoNaviMapView-BaseTests.xctest */,
+				A654949F1E51557F00F1FA87 /* AutoNaviMapView-BaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A654947D1E51557E00F1FA87 /* AutoNaviMapView-Base */ = {
+			isa = PBXGroup;
+			children = (
+				A65494D61E518CA700F1FA87 /* RESideMenu */,
+				A65494D41E518BBF00F1FA87 /* AMap.bundle */,
+				A65494D21E518B9500F1FA87 /* MAMapKit.framework */,
+				A65494D01E518B7900F1FA87 /* AMapFoundationKit.framework */,
+				A65494B71E5156D400F1FA87 /* CustomAnnotationView.m */,
+				A65494B81E5156D400F1FA87 /* CustomAnnotation.h */,
+				A65494B91E5156D400F1FA87 /* CustomAnnotationView.h */,
+				A65494BA1E5156D400F1FA87 /* CustomAnnotation.m */,
+				A65494B21E5155CB00F1FA87 /* AMapSearchKit.framework */,
+				A65494811E51557E00F1FA87 /* AppDelegate.h */,
+				A65494821E51557E00F1FA87 /* AppDelegate.m */,
+				A654948A1E51557E00F1FA87 /* Assets.xcassets */,
+				A654948C1E51557E00F1FA87 /* LaunchScreen.storyboard */,
+				A654948F1E51557E00F1FA87 /* Info.plist */,
+				A654947E1E51557E00F1FA87 /* Supporting Files */,
+				A65494E01E518CF300F1FA87 /* MainViewController.h */,
+				A65494E11E518CF300F1FA87 /* MainViewController.m */,
+				A65494E31E518E2400F1FA87 /* MenuViewController.h */,
+				A65494E41E518E2400F1FA87 /* MenuViewController.m */,
+			);
+			path = "AutoNaviMapView-Base";
+			sourceTree = "<group>";
+		};
+		A654947E1E51557E00F1FA87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A654947F1E51557E00F1FA87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A65494971E51557F00F1FA87 /* AutoNaviMapView-BaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A65494981E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m */,
+				A654949A1E51557F00F1FA87 /* Info.plist */,
+			);
+			path = "AutoNaviMapView-BaseTests";
+			sourceTree = "<group>";
+		};
+		A65494A21E51557F00F1FA87 /* AutoNaviMapView-BaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A65494A31E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m */,
+				A65494A51E51557F00F1FA87 /* Info.plist */,
+			);
+			path = "AutoNaviMapView-BaseUITests";
+			sourceTree = "<group>";
+		};
+		A65494BD1E51575500F1FA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65494CC1E51579D00F1FA87 /* libc++.tbd */,
+				A65494CA1E51579100F1FA87 /* libz.tbd */,
+				A65494C81E51578800F1FA87 /* libstdc++.6.0.9.tbd */,
+				A65494C61E51577900F1FA87 /* Security.framework */,
+				A65494C41E51577000F1FA87 /* JavaScriptCore.framework */,
+				A65494C21E51576600F1FA87 /* SystemConfiguration.framework */,
+				A65494C01E51575D00F1FA87 /* CoreLocation.framework */,
+				A65494BE1E51575500F1FA87 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A65494D61E518CA700F1FA87 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A65494D71E518CA700F1FA87 /* RECommonFunctions.h */,
+				A65494D81E518CA700F1FA87 /* RECommonFunctions.m */,
+				A65494D91E518CA700F1FA87 /* RESideMenu.h */,
+				A65494DA1E518CA700F1FA87 /* RESideMenu.m */,
+				A65494DB1E518CA700F1FA87 /* UIViewController+RESideMenu.h */,
+				A65494DC1E518CA700F1FA87 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A654947A1E51557E00F1FA87 /* AutoNaviMapView-Base */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65494A81E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-Base" */;
+			buildPhases = (
+				A65494771E51557E00F1FA87 /* Sources */,
+				A65494781E51557E00F1FA87 /* Frameworks */,
+				A65494791E51557E00F1FA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoNaviMapView-Base";
+			productName = "AutoNaviMapView-Base";
+			productReference = A654947B1E51557E00F1FA87 /* AutoNaviMapView-Base.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65494931E51557F00F1FA87 /* AutoNaviMapView-BaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65494AB1E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-BaseTests" */;
+			buildPhases = (
+				A65494901E51557F00F1FA87 /* Sources */,
+				A65494911E51557F00F1FA87 /* Frameworks */,
+				A65494921E51557F00F1FA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65494961E51557F00F1FA87 /* PBXTargetDependency */,
+			);
+			name = "AutoNaviMapView-BaseTests";
+			productName = "AutoNaviMapView-BaseTests";
+			productReference = A65494941E51557F00F1FA87 /* AutoNaviMapView-BaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A654949E1E51557F00F1FA87 /* AutoNaviMapView-BaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65494AE1E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-BaseUITests" */;
+			buildPhases = (
+				A654949B1E51557F00F1FA87 /* Sources */,
+				A654949C1E51557F00F1FA87 /* Frameworks */,
+				A654949D1E51557F00F1FA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65494A11E51557F00F1FA87 /* PBXTargetDependency */,
+			);
+			name = "AutoNaviMapView-BaseUITests";
+			productName = "AutoNaviMapView-BaseUITests";
+			productReference = A654949F1E51557F00F1FA87 /* AutoNaviMapView-BaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65494731E51557E00F1FA87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dingping;
+				TargetAttributes = {
+					A654947A1E51557E00F1FA87 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2XZ74Y5S4R;
+						ProvisioningStyle = Automatic;
+					};
+					A65494931E51557F00F1FA87 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2XZ74Y5S4R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A654947A1E51557E00F1FA87;
+					};
+					A654949E1E51557F00F1FA87 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2XZ74Y5S4R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A654947A1E51557E00F1FA87;
+					};
+				};
+			};
+			buildConfigurationList = A65494761E51557E00F1FA87 /* Build configuration list for PBXProject "AutoNaviMapView-Base" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65494721E51557E00F1FA87;
+			productRefGroup = A654947C1E51557E00F1FA87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A654947A1E51557E00F1FA87 /* AutoNaviMapView-Base */,
+				A65494931E51557F00F1FA87 /* AutoNaviMapView-BaseTests */,
+				A654949E1E51557F00F1FA87 /* AutoNaviMapView-BaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65494791E51557E00F1FA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A654948E1E51557E00F1FA87 /* LaunchScreen.storyboard in Resources */,
+				A654948B1E51557E00F1FA87 /* Assets.xcassets in Resources */,
+				A65494D51E518BBF00F1FA87 /* AMap.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65494921E51557F00F1FA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A654949D1E51557F00F1FA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65494771E51557E00F1FA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65494BC1E5156D400F1FA87 /* CustomAnnotation.m in Sources */,
+				A65494E51E518E2400F1FA87 /* MenuViewController.m in Sources */,
+				A65494DF1E518CA700F1FA87 /* UIViewController+RESideMenu.m in Sources */,
+				A65494DD1E518CA700F1FA87 /* RECommonFunctions.m in Sources */,
+				A65494E21E518CF300F1FA87 /* MainViewController.m in Sources */,
+				A65494831E51557E00F1FA87 /* AppDelegate.m in Sources */,
+				A65494BB1E5156D400F1FA87 /* CustomAnnotationView.m in Sources */,
+				A65494801E51557E00F1FA87 /* main.m in Sources */,
+				A65494DE1E518CA700F1FA87 /* RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65494901E51557F00F1FA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65494991E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A654949B1E51557F00F1FA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65494A41E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65494961E51557F00F1FA87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A654947A1E51557E00F1FA87 /* AutoNaviMapView-Base */;
+			targetProxy = A65494951E51557F00F1FA87 /* PBXContainerItemProxy */;
+		};
+		A65494A11E51557F00F1FA87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A654947A1E51557E00F1FA87 /* AutoNaviMapView-Base */;
+			targetProxy = A65494A01E51557F00F1FA87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A654948C1E51557E00F1FA87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A654948D1E51557E00F1FA87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65494A61E51557F00F1FA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65494A71E51557F00F1FA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65494A91E51557F00F1FA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AutoNaviMapView-Base",
+				);
+				INFOPLIST_FILE = "AutoNaviMapView-Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-Base";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A65494AA1E51557F00F1FA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AutoNaviMapView-Base",
+				);
+				INFOPLIST_FILE = "AutoNaviMapView-Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-Base";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A65494AC1E51557F00F1FA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
+				INFOPLIST_FILE = "AutoNaviMapView-BaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-BaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoNaviMapView-Base.app/AutoNaviMapView-Base";
+			};
+			name = Debug;
+		};
+		A65494AD1E51557F00F1FA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
+				INFOPLIST_FILE = "AutoNaviMapView-BaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-BaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoNaviMapView-Base.app/AutoNaviMapView-Base";
+			};
+			name = Release;
+		};
+		A65494AF1E51557F00F1FA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
+				INFOPLIST_FILE = "AutoNaviMapView-BaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-BaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoNaviMapView-Base";
+			};
+			name = Debug;
+		};
+		A65494B01E51557F00F1FA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
+				INFOPLIST_FILE = "AutoNaviMapView-BaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-BaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoNaviMapView-Base";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65494761E51557E00F1FA87 /* Build configuration list for PBXProject "AutoNaviMapView-Base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65494A61E51557F00F1FA87 /* Debug */,
+				A65494A71E51557F00F1FA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65494A81E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-Base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65494A91E51557F00F1FA87 /* Debug */,
+				A65494AA1E51557F00F1FA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A65494AB1E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-BaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65494AC1E51557F00F1FA87 /* Debug */,
+				A65494AD1E51557F00F1FA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A65494AE1E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-BaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65494AF1E51557F00F1FA87 /* Debug */,
+				A65494B01E51557F00F1FA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65494731E51557E00F1FA87 /* Project object */;
+}
