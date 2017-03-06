@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A65494801E51557E00F1FA87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A654947F1E51557E00F1FA87 /* main.m */; };
-		A65494831E51557E00F1FA87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494821E51557E00F1FA87 /* AppDelegate.m */; };
+		41DEA5D2F470B0FF1DACBCA2 /* Pods_AutoNaviMapView_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822750943CC4559EB0D4106D /* Pods_AutoNaviMapView_Base.framework */; };
 		A654948B1E51557E00F1FA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A654948A1E51557E00F1FA87 /* Assets.xcassets */; };
 		A654948E1E51557E00F1FA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A654948C1E51557E00F1FA87 /* LaunchScreen.storyboard */; };
 		A65494991E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494981E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m */; };
 		A65494A41E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494A31E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m */; };
-		A65494B51E5155CB00F1FA87 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494B21E5155CB00F1FA87 /* AMapSearchKit.framework */; };
-		A65494BB1E5156D400F1FA87 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494B71E5156D400F1FA87 /* CustomAnnotationView.m */; };
-		A65494BC1E5156D400F1FA87 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494BA1E5156D400F1FA87 /* CustomAnnotation.m */; };
 		A65494BF1E51575500F1FA87 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494BE1E51575500F1FA87 /* CoreTelephony.framework */; };
 		A65494C11E51575D00F1FA87 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C01E51575D00F1FA87 /* CoreLocation.framework */; };
 		A65494C31E51576600F1FA87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C21E51576600F1FA87 /* SystemConfiguration.framework */; };
@@ -24,14 +20,19 @@
 		A65494C91E51578800F1FA87 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494C81E51578800F1FA87 /* libstdc++.6.0.9.tbd */; };
 		A65494CB1E51579100F1FA87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494CA1E51579100F1FA87 /* libz.tbd */; };
 		A65494CD1E51579D00F1FA87 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494CC1E51579D00F1FA87 /* libc++.tbd */; };
-		A65494D11E518B7900F1FA87 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494D01E518B7900F1FA87 /* AMapFoundationKit.framework */; };
-		A65494D31E518B9500F1FA87 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65494D21E518B9500F1FA87 /* MAMapKit.framework */; };
-		A65494D51E518BBF00F1FA87 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A65494D41E518BBF00F1FA87 /* AMap.bundle */; };
 		A65494DD1E518CA700F1FA87 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494D81E518CA700F1FA87 /* RECommonFunctions.m */; };
 		A65494DE1E518CA700F1FA87 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494DA1E518CA700F1FA87 /* RESideMenu.m */; };
 		A65494DF1E518CA700F1FA87 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494DC1E518CA700F1FA87 /* UIViewController+RESideMenu.m */; };
-		A65494E21E518CF300F1FA87 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494E11E518CF300F1FA87 /* MainViewController.m */; };
-		A65494E51E518E2400F1FA87 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494E41E518E2400F1FA87 /* MenuViewController.m */; };
+		A66170141E6D5DDD0090B938 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A661700F1E6D5DDD0090B938 /* CustomAnnotation.m */; };
+		A66170151E6D5DDD0090B938 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170111E6D5DDD0090B938 /* CustomAnnotationView.m */; };
+		A66170161E6D5DDD0090B938 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170131E6D5DDD0090B938 /* MainViewController.m */; };
+		A661701A1E6D5E410090B938 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170191E6D5E410090B938 /* MenuViewController.m */; };
+		A66170211E6D5EA00090B938 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A661701D1E6D5EA00090B938 /* AMap.bundle */; };
+		A66170221E6D5EA00090B938 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A661701E1E6D5EA00090B938 /* AMapFoundationKit.framework */; };
+		A66170231E6D5EA00090B938 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A661701F1E6D5EA00090B938 /* AMapSearchKit.framework */; };
+		A66170241E6D5EA00090B938 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66170201E6D5EA00090B938 /* MAMapKit.framework */; };
+		A66170281E6D5EFB0090B938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170261E6D5EFB0090B938 /* AppDelegate.m */; };
+		A66170291E6D5EFB0090B938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170271E6D5EFB0090B938 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EB11BEDFC1EA4EAC6DD0DBC /* Pods-AutoNaviMapView-Base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoNaviMapView-Base.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base.debug.xcconfig"; sourceTree = "<group>"; };
+		58538B3AC49828F14D0EF4DB /* Pods-AutoNaviMapView-Base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoNaviMapView-Base.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base.release.xcconfig"; sourceTree = "<group>"; };
+		609C3D5217747A439F6C3D7A /* libPods-AutoNaviMapView-BaseUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoNaviMapView-BaseUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		822750943CC4559EB0D4106D /* Pods_AutoNaviMapView_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoNaviMapView_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A654947B1E51557E00F1FA87 /* AutoNaviMapView-Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoNaviMapView-Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A654947F1E51557E00F1FA87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A65494811E51557E00F1FA87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A65494821E51557E00F1FA87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A654948A1E51557E00F1FA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A654948D1E51557E00F1FA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A654948F1E51557E00F1FA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,11 +67,6 @@
 		A654949F1E51557F00F1FA87 /* AutoNaviMapView-BaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoNaviMapView-BaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65494A31E51557F00F1FA87 /* AutoNaviMapView_BaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoNaviMapView_BaseUITests.m; sourceTree = "<group>"; };
 		A65494A51E51557F00F1FA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A65494B21E5155CB00F1FA87 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
-		A65494B71E5156D400F1FA87 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
-		A65494B81E5156D400F1FA87 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
-		A65494B91E5156D400F1FA87 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
-		A65494BA1E5156D400F1FA87 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 		A65494BE1E51575500F1FA87 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A65494C01E51575D00F1FA87 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A65494C21E51576600F1FA87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -78,19 +75,28 @@
 		A65494C81E51578800F1FA87 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		A65494CA1E51579100F1FA87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A65494CC1E51579D00F1FA87 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		A65494D01E518B7900F1FA87 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
-		A65494D21E518B9500F1FA87 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
-		A65494D41E518BBF00F1FA87 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		A65494D71E518CA700F1FA87 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
 		A65494D81E518CA700F1FA87 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		A65494D91E518CA700F1FA87 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
 		A65494DA1E518CA700F1FA87 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		A65494DB1E518CA700F1FA87 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
 		A65494DC1E518CA700F1FA87 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
-		A65494E01E518CF300F1FA87 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		A65494E11E518CF300F1FA87 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		A65494E31E518E2400F1FA87 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
-		A65494E41E518E2400F1FA87 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A661700E1E6D5DDD0090B938 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		A661700F1E6D5DDD0090B938 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		A66170101E6D5DDD0090B938 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		A66170111E6D5DDD0090B938 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		A66170121E6D5DDD0090B938 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A66170131E6D5DDD0090B938 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A66170181E6D5E410090B938 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A66170191E6D5E410090B938 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A661701D1E6D5EA00090B938 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		A661701E1E6D5EA00090B938 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		A661701F1E6D5EA00090B938 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		A66170201E6D5EA00090B938 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		A66170251E6D5EFB0090B938 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A66170261E6D5EFB0090B938 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A66170271E6D5EFB0090B938 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E270686C1FA7E93514F5774A /* libPods-AutoNaviMapView-BaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoNaviMapView-BaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,17 +104,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65494D11E518B7900F1FA87 /* AMapFoundationKit.framework in Frameworks */,
+				A66170231E6D5EA00090B938 /* AMapSearchKit.framework in Frameworks */,
 				A65494CD1E51579D00F1FA87 /* libc++.tbd in Frameworks */,
-				A65494D31E518B9500F1FA87 /* MAMapKit.framework in Frameworks */,
 				A65494CB1E51579100F1FA87 /* libz.tbd in Frameworks */,
 				A65494C91E51578800F1FA87 /* libstdc++.6.0.9.tbd in Frameworks */,
 				A65494C71E51577900F1FA87 /* Security.framework in Frameworks */,
 				A65494C51E51577000F1FA87 /* JavaScriptCore.framework in Frameworks */,
+				A66170241E6D5EA00090B938 /* MAMapKit.framework in Frameworks */,
 				A65494C31E51576600F1FA87 /* SystemConfiguration.framework in Frameworks */,
 				A65494C11E51575D00F1FA87 /* CoreLocation.framework in Frameworks */,
 				A65494BF1E51575500F1FA87 /* CoreTelephony.framework in Frameworks */,
-				A65494B51E5155CB00F1FA87 /* AMapSearchKit.framework in Frameworks */,
+				41DEA5D2F470B0FF1DACBCA2 /* Pods_AutoNaviMapView_Base.framework in Frameworks */,
+				A66170221E6D5EA00090B938 /* AMapFoundationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EB764882F3D69DDB3367133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB11BEDFC1EA4EAC6DD0DBC /* Pods-AutoNaviMapView-Base.debug.xcconfig */,
+				58538B3AC49828F14D0EF4DB /* Pods-AutoNaviMapView-Base.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A65494721E51557E00F1FA87 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +153,7 @@
 				A65494A21E51557F00F1FA87 /* AutoNaviMapView-BaseUITests */,
 				A654947C1E51557E00F1FA87 /* Products */,
 				A65494BD1E51575500F1FA87 /* Frameworks */,
+				7EB764882F3D69DDB3367133 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,25 +170,16 @@
 		A654947D1E51557E00F1FA87 /* AutoNaviMapView-Base */ = {
 			isa = PBXGroup;
 			children = (
+				A661701C1E6D5E900090B938 /* Other */,
+				A661701B1E6D5E490090B938 /* Libs */,
+				A66170171E6D5DF80090B938 /* Menu */,
+				A661700D1E6D5D760090B938 /* Index */,
+				A661700B1E6D5D450090B938 /* Tools */,
 				A65494D61E518CA700F1FA87 /* RESideMenu */,
-				A65494D41E518BBF00F1FA87 /* AMap.bundle */,
-				A65494D21E518B9500F1FA87 /* MAMapKit.framework */,
-				A65494D01E518B7900F1FA87 /* AMapFoundationKit.framework */,
-				A65494B71E5156D400F1FA87 /* CustomAnnotationView.m */,
-				A65494B81E5156D400F1FA87 /* CustomAnnotation.h */,
-				A65494B91E5156D400F1FA87 /* CustomAnnotationView.h */,
-				A65494BA1E5156D400F1FA87 /* CustomAnnotation.m */,
-				A65494B21E5155CB00F1FA87 /* AMapSearchKit.framework */,
-				A65494811E51557E00F1FA87 /* AppDelegate.h */,
-				A65494821E51557E00F1FA87 /* AppDelegate.m */,
 				A654948A1E51557E00F1FA87 /* Assets.xcassets */,
 				A654948C1E51557E00F1FA87 /* LaunchScreen.storyboard */,
 				A654948F1E51557E00F1FA87 /* Info.plist */,
 				A654947E1E51557E00F1FA87 /* Supporting Files */,
-				A65494E01E518CF300F1FA87 /* MainViewController.h */,
-				A65494E11E518CF300F1FA87 /* MainViewController.m */,
-				A65494E31E518E2400F1FA87 /* MenuViewController.h */,
-				A65494E41E518E2400F1FA87 /* MenuViewController.m */,
 			);
 			path = "AutoNaviMapView-Base";
 			sourceTree = "<group>";
@@ -179,7 +187,6 @@
 		A654947E1E51557E00F1FA87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A654947F1E51557E00F1FA87 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,6 +220,9 @@
 				A65494C21E51576600F1FA87 /* SystemConfiguration.framework */,
 				A65494C01E51575D00F1FA87 /* CoreLocation.framework */,
 				A65494BE1E51575500F1FA87 /* CoreTelephony.framework */,
+				E270686C1FA7E93514F5774A /* libPods-AutoNaviMapView-BaseTests.a */,
+				609C3D5217747A439F6C3D7A /* libPods-AutoNaviMapView-BaseUITests.a */,
+				822750943CC4559EB0D4106D /* Pods_AutoNaviMapView_Base.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +240,56 @@
 			path = RESideMenu;
 			sourceTree = "<group>";
 		};
+		A661700B1E6D5D450090B938 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A661700D1E6D5D760090B938 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				A661700E1E6D5DDD0090B938 /* CustomAnnotation.h */,
+				A661700F1E6D5DDD0090B938 /* CustomAnnotation.m */,
+				A66170101E6D5DDD0090B938 /* CustomAnnotationView.h */,
+				A66170111E6D5DDD0090B938 /* CustomAnnotationView.m */,
+				A66170121E6D5DDD0090B938 /* MainViewController.h */,
+				A66170131E6D5DDD0090B938 /* MainViewController.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		A66170171E6D5DF80090B938 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A66170181E6D5E410090B938 /* MenuViewController.h */,
+				A66170191E6D5E410090B938 /* MenuViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A661701B1E6D5E490090B938 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A661701D1E6D5EA00090B938 /* AMap.bundle */,
+				A661701E1E6D5EA00090B938 /* AMapFoundationKit.framework */,
+				A661701F1E6D5EA00090B938 /* AMapSearchKit.framework */,
+				A66170201E6D5EA00090B938 /* MAMapKit.framework */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		A661701C1E6D5E900090B938 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A66170251E6D5EFB0090B938 /* AppDelegate.h */,
+				A66170261E6D5EFB0090B938 /* AppDelegate.m */,
+				A66170271E6D5EFB0090B938 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A65494A81E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-Base" */;
 			buildPhases = (
+				5C55C7C594C8D2A0278A2F39 /* [CP] Check Pods Manifest.lock */,
 				A65494771E51557E00F1FA87 /* Sources */,
 				A65494781E51557E00F1FA87 /* Frameworks */,
 				A65494791E51557E00F1FA87 /* Resources */,
+				C2EC2F506D5C6D952A285350 /* [CP] Embed Pods Frameworks */,
+				D43A54DB190A8E674C484E09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,9 +402,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66170211E6D5EA00090B938 /* AMap.bundle in Resources */,
 				A654948E1E51557E00F1FA87 /* LaunchScreen.storyboard in Resources */,
 				A654948B1E51557E00F1FA87 /* Assets.xcassets in Resources */,
-				A65494D51E518BBF00F1FA87 /* AMap.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,19 +424,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C55C7C594C8D2A0278A2F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EC2F506D5C6D952A285350 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43A54DB190A8E674C484E09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A65494771E51557E00F1FA87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65494BC1E5156D400F1FA87 /* CustomAnnotation.m in Sources */,
-				A65494E51E518E2400F1FA87 /* MenuViewController.m in Sources */,
+				A66170291E6D5EFB0090B938 /* main.m in Sources */,
 				A65494DF1E518CA700F1FA87 /* UIViewController+RESideMenu.m in Sources */,
+				A661701A1E6D5E410090B938 /* MenuViewController.m in Sources */,
+				A66170281E6D5EFB0090B938 /* AppDelegate.m in Sources */,
+				A66170151E6D5DDD0090B938 /* CustomAnnotationView.m in Sources */,
 				A65494DD1E518CA700F1FA87 /* RECommonFunctions.m in Sources */,
-				A65494E21E518CF300F1FA87 /* MainViewController.m in Sources */,
-				A65494831E51557E00F1FA87 /* AppDelegate.m in Sources */,
-				A65494BB1E5156D400F1FA87 /* CustomAnnotationView.m in Sources */,
-				A65494801E51557E00F1FA87 /* main.m in Sources */,
+				A66170161E6D5DDD0090B938 /* MainViewController.m in Sources */,
+				A66170141E6D5DDD0090B938 /* CustomAnnotation.m in Sources */,
 				A65494DE1E518CA700F1FA87 /* RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,12 +624,14 @@
 		};
 		A65494A91E51557F00F1FA87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB11BEDFC1EA4EAC6DD0DBC /* Pods-AutoNaviMapView-Base.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AutoNaviMapView-Base",
+					"$(PROJECT_DIR)/AutoNaviMapView-Base/Libs",
 				);
 				INFOPLIST_FILE = "AutoNaviMapView-Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -530,12 +643,14 @@
 		};
 		A65494AA1E51557F00F1FA87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58538B3AC49828F14D0EF4DB /* Pods-AutoNaviMapView-Base.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2XZ74Y5S4R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AutoNaviMapView-Base",
+					"$(PROJECT_DIR)/AutoNaviMapView-Base/Libs",
 				);
 				INFOPLIST_FILE = "AutoNaviMapView-Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -614,6 +729,7 @@
 				A65494AA1E51557F00F1FA87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A65494AB1E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-BaseTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +738,7 @@
 				A65494AD1E51557F00F1FA87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A65494AE1E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-BaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +747,7 @@
 				A65494B01E51557F00F1FA87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
