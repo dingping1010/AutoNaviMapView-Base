@@ -14,6 +14,9 @@
 #import "RESideMenu.h"
 #import "CustomAnnotationView.h"
 
+#import "SearchViewController.h"
+
+
 @interface MainViewController ()<MAMapViewDelegate>
 @property (nonatomic, strong) MAPointAnnotation *userAnnotation;
 @property (nonatomic, strong) MAMapView *mapView;
@@ -52,7 +55,10 @@
     CGFloat gpsHeight = 45;
     
     CGFloat screenH = [UIScreen mainScreen].bounds.size.height;
+    CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
+
     self.gpsLocationBtn.frame = CGRectMake(paddingX, screenH - paddingY*3, gpsWidth, gpsHeight);
+    self.searchView.frame = CGRectMake(0, screenH-60, screenW, 60);
     
 }
 
@@ -107,7 +113,9 @@
 
 - (void)searchViewDidClick:(UITapGestureRecognizer *)tapGes
 {
-    
+    SearchViewController *searchVC = [[SearchViewController alloc]init];
+    searchVC.cityName = @"深圳";
+    [self presentViewController:searchVC animated:YES completion:nil];
 }
 
 // 当大头针被加入到地图中的时候就会调用这个方法
@@ -208,50 +216,18 @@
     if(!_searchView) {
         _searchView = [[UILabel alloc]init];
         _searchView.text = @"你想要搜索的地方";
-        _searchView.font = [UIFont systemFontOfSize:16];
-        _searchView.textColor = [UIColor colorWithRed:51 green:51 blue:51 alpha:1];
+        _searchView.font = [UIFont systemFontOfSize:17];
+        _searchView.textAlignment = NSTextAlignmentCenter;
+        _searchView.clipsToBounds = YES;
+        _searchView.backgroundColor = [UIColor whiteColor];
+        _searchView.layer.cornerRadius = 5.f;
+        _searchView.textColor = [UIColor blackColor];
+        _searchView.userInteractionEnabled = YES;
         
         UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(searchViewDidClick:)];
         [_searchView addGestureRecognizer:tapGes];
     }
     return  _searchView;
-}
-
-// 设置地图的一些参数
-- (void)test
-{
-    //    _mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
-    //    _mapView.delegate = self;
-    //    [self.view addSubview:_mapView];
-    
-    //    _mapView.showsUserLocation = YES;   // 开启定位
-    //    _mapView.userTrackingMode = MAUserTrackingModeFollow;  // 定位的模式，显示蓝点
-    //    _mapView.showsCompass= NO;  // 是否开启地图右上角的指南针
-    //    _mapView.showsScale = NO;
-    //    _mapView.scaleOrigin= CGPointMake(_mapView.scaleOrigin.x, 60);  // 设置地图的比例尺尺寸
-    
-    //    _mapView.zoomEnabled = YES;  // 是否可以缩放地图
-    //    [_mapView setZoomLevel:17.5f animated:YES];   // 地图的缩放级别，范围是【 3-19 】
-    //    _mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    
-    //    _mapView.scrollEnabled = YES; // 是否可以滑动地图
-    //    地图平移时，缩放级别不变，可通过改变地图的中心点来移动地图，示例代码如下：杭州经纬度:(120.20000,30.26667)
-    //    CLLocationCoordinate2D  coordinate = CLLocationCoordinate2DMake(120.20000, 30.26667);
-    //    [_mapView setCenterCoordinate:coordinate animated:YES];
-    
-    //     _mapView.rotateEnabled = NO;    //NO表示禁用旋转手势，YES表示开启,3D地图
-    //    [_mapView setRotationDegree:60.f animated:YES duration:0.5]; //旋转角度，范围是[0.f 360.f]，逆时针为正方向
-    
-    //      _mapView.rotateCameraEnabled= NO;    //NO表示禁用倾斜手势，YES表示开启
-    //    [_mapView setCameraDegree:30.f animated:YES duration:0.5];  // 倾斜角度，范围是[0.f, 45.f]
-    
-    
-    // 还可以限制地图的显示范围，比如只显示北京区域的地图。与“禁用旋转手势”配合使用。详情参考高德开发文档。
-    // 地图可以截屏，只有当地图上的内容显示完成后，才可以截屏。
-    
-    //    _mapView.showsUserLocation = YES;
-    //    CLLocationCoordinate2D centerCoordinate = CLLocationCoordinate2DMake(22.547,114.085947);
-    //    _mapView.centerCoordinate = centerCoordinate;
 }
 
 

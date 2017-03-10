@@ -33,6 +33,10 @@
 		A66170241E6D5EA00090B938 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66170201E6D5EA00090B938 /* MAMapKit.framework */; };
 		A66170281E6D5EFB0090B938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170261E6D5EFB0090B938 /* AppDelegate.m */; };
 		A66170291E6D5EFB0090B938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66170271E6D5EFB0090B938 /* main.m */; };
+		A661702C1E6E4F930090B938 /* DPNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = A661702B1E6E4F930090B938 /* DPNetworkService.m */; };
+		A6894B5C1E6EB256008B5C06 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894B5A1E6EB256008B5C06 /* SearchViewController.m */; };
+		A6894B621E6EB332008B5C06 /* SearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894B611E6EB332008B5C06 /* SearchBarView.m */; };
+		A68F1D3C1E7155F50052E62F /* AdressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F1D3B1E7155F50052E62F /* AdressModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,14 @@
 		A66170251E6D5EFB0090B938 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A66170261E6D5EFB0090B938 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A66170271E6D5EFB0090B938 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A661702A1E6E4F930090B938 /* DPNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNetworkService.h; sourceTree = "<group>"; };
+		A661702B1E6E4F930090B938 /* DPNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPNetworkService.m; sourceTree = "<group>"; };
+		A6894B5A1E6EB256008B5C06 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A6894B5B1E6EB256008B5C06 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A6894B601E6EB332008B5C06 /* SearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarView.h; sourceTree = "<group>"; };
+		A6894B611E6EB332008B5C06 /* SearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarView.m; sourceTree = "<group>"; };
+		A68F1D3A1E7155F50052E62F /* AdressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressModel.h; sourceTree = "<group>"; };
+		A68F1D3B1E7155F50052E62F /* AdressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressModel.m; sourceTree = "<group>"; };
 		E270686C1FA7E93514F5774A /* libPods-AutoNaviMapView-BaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoNaviMapView-BaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -243,6 +255,8 @@
 		A661700B1E6D5D450090B938 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A661702A1E6E4F930090B938 /* DPNetworkService.h */,
+				A661702B1E6E4F930090B938 /* DPNetworkService.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -250,12 +264,18 @@
 		A661700D1E6D5D760090B938 /* Index */ = {
 			isa = PBXGroup;
 			children = (
+				A6894B601E6EB332008B5C06 /* SearchBarView.h */,
+				A6894B611E6EB332008B5C06 /* SearchBarView.m */,
+				A6894B5B1E6EB256008B5C06 /* SearchViewController.h */,
+				A6894B5A1E6EB256008B5C06 /* SearchViewController.m */,
 				A661700E1E6D5DDD0090B938 /* CustomAnnotation.h */,
 				A661700F1E6D5DDD0090B938 /* CustomAnnotation.m */,
 				A66170101E6D5DDD0090B938 /* CustomAnnotationView.h */,
 				A66170111E6D5DDD0090B938 /* CustomAnnotationView.m */,
 				A66170121E6D5DDD0090B938 /* MainViewController.h */,
 				A66170131E6D5DDD0090B938 /* MainViewController.m */,
+				A68F1D3A1E7155F50052E62F /* AdressModel.h */,
+				A68F1D3B1E7155F50052E62F /* AdressModel.m */,
 			);
 			path = Index;
 			sourceTree = "<group>";
@@ -479,11 +499,15 @@
 			files = (
 				A66170291E6D5EFB0090B938 /* main.m in Sources */,
 				A65494DF1E518CA700F1FA87 /* UIViewController+RESideMenu.m in Sources */,
+				A6894B621E6EB332008B5C06 /* SearchBarView.m in Sources */,
 				A661701A1E6D5E410090B938 /* MenuViewController.m in Sources */,
 				A66170281E6D5EFB0090B938 /* AppDelegate.m in Sources */,
+				A661702C1E6E4F930090B938 /* DPNetworkService.m in Sources */,
 				A66170151E6D5DDD0090B938 /* CustomAnnotationView.m in Sources */,
 				A65494DD1E518CA700F1FA87 /* RECommonFunctions.m in Sources */,
 				A66170161E6D5DDD0090B938 /* MainViewController.m in Sources */,
+				A68F1D3C1E7155F50052E62F /* AdressModel.m in Sources */,
+				A6894B5C1E6EB256008B5C06 /* SearchViewController.m in Sources */,
 				A66170141E6D5DDD0090B938 /* CustomAnnotation.m in Sources */,
 				A65494DE1E518CA700F1FA87 /* RESideMenu.m in Sources */,
 			);
