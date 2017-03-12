@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		41DEA5D2F470B0FF1DACBCA2 /* Pods_AutoNaviMapView_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822750943CC4559EB0D4106D /* Pods_AutoNaviMapView_Base.framework */; };
+		A6111A4B1E7595C100630DCC /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6111A4A1E7595C100630DCC /* libiconv.2.4.0.tbd */; };
+		A62CB2461E728611003D9A64 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62CB2451E728611003D9A64 /* pop.framework */; };
+		A62CB2491E728CE1003D9A64 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CB2481E728CE1003D9A64 /* NaviViewController.m */; };
+		A62CB2521E729FCF003D9A64 /* libetts_device_simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A62CB2511E729FCF003D9A64 /* libetts_device_simulator.a */; };
+		A62CB2541E72A8F2003D9A64 /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62CB2531E72A8F2003D9A64 /* AMapNaviKit.framework */; };
+		A62CB2561E72A95C003D9A64 /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62CB2551E72A95C003D9A64 /* AMapNaviKit.framework */; };
 		A654948B1E51557E00F1FA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A654948A1E51557E00F1FA87 /* Assets.xcassets */; };
 		A654948E1E51557E00F1FA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A654948C1E51557E00F1FA87 /* LaunchScreen.storyboard */; };
 		A65494991E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65494981E51557F00F1FA87 /* AutoNaviMapView_BaseTests.m */; };
@@ -37,6 +43,11 @@
 		A6894B5C1E6EB256008B5C06 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894B5A1E6EB256008B5C06 /* SearchViewController.m */; };
 		A6894B621E6EB332008B5C06 /* SearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894B611E6EB332008B5C06 /* SearchBarView.m */; };
 		A68F1D3C1E7155F50052E62F /* AdressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F1D3B1E7155F50052E62F /* AdressModel.m */; };
+		A6AC831D1E758CA3001F44A2 /* AMapNavi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6AC831C1E758CA3001F44A2 /* AMapNavi.bundle */; };
+		A6AC831F1E75914E001F44A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AC831E1E75914E001F44A2 /* AVFoundation.framework */; };
+		A6AC83271E759308001F44A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AC83261E759308001F44A2 /* AudioToolbox.framework */; };
+		A6AC83291E759344001F44A2 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AC83281E759344001F44A2 /* libz.1.2.5.tbd */; };
+		A6AC832B1E759354001F44A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AC832A1E759354001F44A2 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +72,19 @@
 		58538B3AC49828F14D0EF4DB /* Pods-AutoNaviMapView-Base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoNaviMapView-Base.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base.release.xcconfig"; sourceTree = "<group>"; };
 		609C3D5217747A439F6C3D7A /* libPods-AutoNaviMapView-BaseUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoNaviMapView-BaseUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		822750943CC4559EB0D4106D /* Pods_AutoNaviMapView_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoNaviMapView_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6111A4A1E7595C100630DCC /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		A62CB2451E728611003D9A64 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop/pop.framework"; sourceTree = "<group>"; };
+		A62CB2471E728CE1003D9A64 /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		A62CB2481E728CE1003D9A64 /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		A62CB24B1E729FCF003D9A64 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
+		A62CB24C1E729FCF003D9A64 /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		A62CB24D1E729FCF003D9A64 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
+		A62CB24E1E729FCF003D9A64 /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
+		A62CB24F1E729FCF003D9A64 /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
+		A62CB2501E729FCF003D9A64 /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
+		A62CB2511E729FCF003D9A64 /* libetts_device_simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libetts_device_simulator.a; sourceTree = "<group>"; };
+		A62CB2531E72A8F2003D9A64 /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
+		A62CB2551E72A95C003D9A64 /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapNaviKit.framework; path = ../../../Downloads/AMap_iOS_Navi_ALL/AMapNaviKit.framework; sourceTree = "<group>"; };
 		A654947B1E51557E00F1FA87 /* AutoNaviMapView-Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoNaviMapView-Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A654948A1E51557E00F1FA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A654948D1E51557E00F1FA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,6 +132,11 @@
 		A6894B611E6EB332008B5C06 /* SearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarView.m; sourceTree = "<group>"; };
 		A68F1D3A1E7155F50052E62F /* AdressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressModel.h; sourceTree = "<group>"; };
 		A68F1D3B1E7155F50052E62F /* AdressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressModel.m; sourceTree = "<group>"; };
+		A6AC831C1E758CA3001F44A2 /* AMapNavi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMapNavi.bundle; sourceTree = "<group>"; };
+		A6AC831E1E75914E001F44A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6AC83261E759308001F44A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A6AC83281E759344001F44A2 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		A6AC832A1E759354001F44A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E270686C1FA7E93514F5774A /* libPods-AutoNaviMapView-BaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoNaviMapView-BaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,15 +145,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6111A4B1E7595C100630DCC /* libiconv.2.4.0.tbd in Frameworks */,
+				A6AC832B1E759354001F44A2 /* UIKit.framework in Frameworks */,
+				A6AC83291E759344001F44A2 /* libz.1.2.5.tbd in Frameworks */,
+				A6AC83271E759308001F44A2 /* AudioToolbox.framework in Frameworks */,
+				A6AC831F1E75914E001F44A2 /* AVFoundation.framework in Frameworks */,
+				A62CB2561E72A95C003D9A64 /* AMapNaviKit.framework in Frameworks */,
+				A62CB2461E728611003D9A64 /* pop.framework in Frameworks */,
 				A66170231E6D5EA00090B938 /* AMapSearchKit.framework in Frameworks */,
 				A65494CD1E51579D00F1FA87 /* libc++.tbd in Frameworks */,
 				A65494CB1E51579100F1FA87 /* libz.tbd in Frameworks */,
 				A65494C91E51578800F1FA87 /* libstdc++.6.0.9.tbd in Frameworks */,
+				A62CB2541E72A8F2003D9A64 /* AMapNaviKit.framework in Frameworks */,
 				A65494C71E51577900F1FA87 /* Security.framework in Frameworks */,
 				A65494C51E51577000F1FA87 /* JavaScriptCore.framework in Frameworks */,
 				A66170241E6D5EA00090B938 /* MAMapKit.framework in Frameworks */,
 				A65494C31E51576600F1FA87 /* SystemConfiguration.framework in Frameworks */,
 				A65494C11E51575D00F1FA87 /* CoreLocation.framework in Frameworks */,
+				A62CB2521E729FCF003D9A64 /* libetts_device_simulator.a in Frameworks */,
 				A65494BF1E51575500F1FA87 /* CoreTelephony.framework in Frameworks */,
 				41DEA5D2F470B0FF1DACBCA2 /* Pods_AutoNaviMapView_Base.framework in Frameworks */,
 				A66170221E6D5EA00090B938 /* AMapFoundationKit.framework in Frameworks */,
@@ -155,6 +193,20 @@
 				58538B3AC49828F14D0EF4DB /* Pods-AutoNaviMapView-Base.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A62CB24A1E729FCF003D9A64 /* BDSSpeechSynthesizer_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A62CB24B1E729FCF003D9A64 /* BDSBuiltInPlayer.h */,
+				A62CB24C1E729FCF003D9A64 /* BDSSpeechSynthesizer.h */,
+				A62CB24D1E729FCF003D9A64 /* BDSSpeechSynthesizerDelegate.h */,
+				A62CB24E1E729FCF003D9A64 /* BDSSpeechSynthesizerErrors.h */,
+				A62CB24F1E729FCF003D9A64 /* BDSSpeechSynthesizerParams.h */,
+				A62CB2501E729FCF003D9A64 /* BDSSynthesizerLogLevel.h */,
+				A62CB2511E729FCF003D9A64 /* libetts_device_simulator.a */,
+			);
+			path = BDSSpeechSynthesizer_SDK;
 			sourceTree = "<group>";
 		};
 		A65494721E51557E00F1FA87 = {
@@ -224,6 +276,13 @@
 		A65494BD1E51575500F1FA87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6111A4A1E7595C100630DCC /* libiconv.2.4.0.tbd */,
+				A6AC832A1E759354001F44A2 /* UIKit.framework */,
+				A6AC83281E759344001F44A2 /* libz.1.2.5.tbd */,
+				A6AC83261E759308001F44A2 /* AudioToolbox.framework */,
+				A6AC831E1E75914E001F44A2 /* AVFoundation.framework */,
+				A62CB2551E72A95C003D9A64 /* AMapNaviKit.framework */,
+				A62CB2451E728611003D9A64 /* pop.framework */,
 				A65494CC1E51579D00F1FA87 /* libc++.tbd */,
 				A65494CA1E51579100F1FA87 /* libz.tbd */,
 				A65494C81E51578800F1FA87 /* libstdc++.6.0.9.tbd */,
@@ -276,6 +335,8 @@
 				A66170131E6D5DDD0090B938 /* MainViewController.m */,
 				A68F1D3A1E7155F50052E62F /* AdressModel.h */,
 				A68F1D3B1E7155F50052E62F /* AdressModel.m */,
+				A62CB2471E728CE1003D9A64 /* NaviViewController.h */,
+				A62CB2481E728CE1003D9A64 /* NaviViewController.m */,
 			);
 			path = Index;
 			sourceTree = "<group>";
@@ -292,6 +353,9 @@
 		A661701B1E6D5E490090B938 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				A6AC831C1E758CA3001F44A2 /* AMapNavi.bundle */,
+				A62CB2531E72A8F2003D9A64 /* AMapNaviKit.framework */,
+				A62CB24A1E729FCF003D9A64 /* BDSSpeechSynthesizer_SDK */,
 				A661701D1E6D5EA00090B938 /* AMap.bundle */,
 				A661701E1E6D5EA00090B938 /* AMapFoundationKit.framework */,
 				A661701F1E6D5EA00090B938 /* AMapSearchKit.framework */,
@@ -317,12 +381,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A65494A81E51557F00F1FA87 /* Build configuration list for PBXNativeTarget "AutoNaviMapView-Base" */;
 			buildPhases = (
+				05AED29D7DE9F365DBB3FA29 /* 📦 Check Pods Manifest.lock */,
 				5C55C7C594C8D2A0278A2F39 /* [CP] Check Pods Manifest.lock */,
 				A65494771E51557E00F1FA87 /* Sources */,
 				A65494781E51557E00F1FA87 /* Frameworks */,
 				A65494791E51557E00F1FA87 /* Resources */,
 				C2EC2F506D5C6D952A285350 /* [CP] Embed Pods Frameworks */,
 				D43A54DB190A8E674C484E09 /* [CP] Copy Pods Resources */,
+				1F686C571B5BDC7269FBA0F8 /* 📦 Embed Pods Frameworks */,
+				3805529B1FB1001CD676BA1C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -422,6 +489,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6AC831D1E758CA3001F44A2 /* AMapNavi.bundle in Resources */,
 				A66170211E6D5EA00090B938 /* AMap.bundle in Resources */,
 				A654948E1E51557E00F1FA87 /* LaunchScreen.storyboard in Resources */,
 				A654948B1E51557E00F1FA87 /* Assets.xcassets in Resources */,
@@ -445,6 +513,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		05AED29D7DE9F365DBB3FA29 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F686C571B5BDC7269FBA0F8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3805529B1FB1001CD676BA1C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoNaviMapView-Base/Pods-AutoNaviMapView-Base-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5C55C7C594C8D2A0278A2F39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,6 +614,7 @@
 				A65494DF1E518CA700F1FA87 /* UIViewController+RESideMenu.m in Sources */,
 				A6894B621E6EB332008B5C06 /* SearchBarView.m in Sources */,
 				A661701A1E6D5E410090B938 /* MenuViewController.m in Sources */,
+				A62CB2491E728CE1003D9A64 /* NaviViewController.m in Sources */,
 				A66170281E6D5EFB0090B938 /* AppDelegate.m in Sources */,
 				A661702C1E6E4F930090B938 /* DPNetworkService.m in Sources */,
 				A66170151E6D5DDD0090B938 /* CustomAnnotationView.m in Sources */,
@@ -656,10 +770,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AutoNaviMapView-Base",
 					"$(PROJECT_DIR)/AutoNaviMapView-Base/Libs",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/pop",
 				);
 				INFOPLIST_FILE = "AutoNaviMapView-Base/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AutoNaviMapView-Base/Libs/BDSSpeechSynthesizer_SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-Base";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -675,10 +794,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AutoNaviMapView-Base",
 					"$(PROJECT_DIR)/AutoNaviMapView-Base/Libs",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/pop",
 				);
 				INFOPLIST_FILE = "AutoNaviMapView-Base/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AutoNaviMapView-Base/Libs/BDSSpeechSynthesizer_SDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dingping.com.AutoNaviMapView-Base";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
