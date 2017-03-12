@@ -140,6 +140,7 @@
         }
     }
     
+    
     NSMutableArray *tempArray = [NSMutableArray array];
     for (AdressModel *modle in self.historyArray) {
         NSData *addressData = [NSKeyedArchiver archivedDataWithRootObject:modle];
