@@ -7,24 +7,50 @@
 //
 
 
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+
+
 #import "MainViewController.h"
 #import <MAMapKit/MAMapKit.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import "UIViewController+RESideMenu.h"
 #import "RESideMenu.h"
 #import "CustomAnnotationView.h"
-
 #import "SearchViewController.h"
+#import "NaviViewController.h"
 
+#import "Masonry.h"
+#import <pop/POP.h>
 
 @interface MainViewController ()<MAMapViewDelegate>
 @property (nonatomic, strong) MAPointAnnotation *userAnnotation;
 @property (nonatomic, strong) MAMapView *mapView;
-@property (nonatomic ,strong) CLGeocoder *geocoder;  // 地理编码对象
-@property (nonatomic, strong) UIButton *gpsLocationBtn;
-@property (nonatomic, strong) NSMutableArray *pointArr;           // 大头针数组
-
+@property (nonatomic, strong) NSMutableArray *pointArr;
 @property (nonatomic, strong) UILabel *searchView;
+@property (nonatomic, strong) UIView *testView;    // 用来测试动画
+
+/**
+ 定位经纬度
+ */
+@property (nonatomic, assign)CLLocationCoordinate2D currentLocation;
+
+/**
+  地理编码对象
+ */
+@property (nonatomic ,strong) CLGeocoder *geocoder;
+
+/**
+ 回到定位位置
+ */
+@property (nonatomic, strong) UIButton *gpsLocationBtn;
+
+
+/**
+  导航
+ */
+@property (nonatomic, strong) UIButton *navButton;
+
 
 
 @end
@@ -48,18 +74,49 @@
     [self.view addSubview:self.mapView];
     [self.view addSubview:self.gpsLocationBtn];
     [self.view addSubview:self.searchView];
+    [self.view addSubview:self.navButton];
     
     CGFloat paddingX = 25;
     CGFloat paddingY = 40;
     CGFloat gpsWidth = 45;
     CGFloat gpsHeight = 45;
-    
-    CGFloat screenH = [UIScreen mainScreen].bounds.size.height;
-    CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
 
     self.gpsLocationBtn.frame = CGRectMake(paddingX, screenH - paddingY*3, gpsWidth, gpsHeight);
     self.searchView.frame = CGRectMake(0, screenH-60, screenW, 60);
     
+    [_navButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.equalTo(self.view).offset(-paddingX);
+        make.bottom.equalTo(self.view).offset(-70);
+        make.width.height.equalTo(@60);
+    }];
+    
+    self.testView = [[UIView alloc] initWithFrame:CGRectMake(0, screenH, screenW, 200)];
+    self.testView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:self.testView];
+}
+
+- (void)moveAction:(id)sender
+{
+//    POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPViewBounds];
+    
+//    NSInteger height = CGRectGetHeight(self.view.bounds);
+//    NSInteger width = CGRectGetWidth(self.view.bounds);
+    
+//    CGFloat centerX = arc4random() % width;
+//    CGFloat centerY = arc4random() % height;
+    
+//    CGFloat centerX = screenW / 2;
+//    CGFloat centerY = screenH / 2;
+//    
+//    if (self.testView.frame.size.width == screenW) {
+//        anim.toValue = [NSValue valueWithCGRect:CGRectMake(0, 0, 100, 100)];
+//    } else {
+//        anim.toValue = [NSValue valueWithCGRect:CGRectMake(0, 0, screenW, 200)];
+//    }
+    
+//    anim.toValue = [NSValue valueWithCGPoint:CGPointMake(centerX, centerY)];
+    
+//    [self.testView pop_addAnimation:anim forKey:@"center"];
 }
 
 - (void)pushToMenu
@@ -111,6 +168,29 @@
     [self.mapView setZoomLevel:(17.2f) animated:YES];
 }
 
+
+/**
+  点击导航
+ */
+- (void)navButtonDidSelected:(UIButton *)navButton
+{
+//    [self moveAction:navButton];
+    
+    if(self.currentLocation.latitude <= 0 || self.currentLocation.longitude <=0) {
+        return;
+    }
+    
+    NaviViewController *naviVC = [[NaviViewController alloc]init];
+    naviVC.startPointLat = 22.541089;
+    naviVC.startPointLog = 113.981109;
+    
+    // 测试 正式依据正式即可
+    naviVC.endPointLat = 22.5515;
+    naviVC.endPointLog = 113.9543;
+    
+    [self.navigationController pushViewController:naviVC animated:YES];
+}
+
 - (void)searchViewDidClick:(UITapGestureRecognizer *)tapGes
 {
     SearchViewController *searchVC = [[SearchViewController alloc]init];
@@ -147,6 +227,8 @@
             CLLocationCoordinate2D myCoorDinate = [newLocation coordinate];
             _mapView.centerCoordinate = myCoorDinate;
             _mapView.showsUserLocation = NO;
+            
+            self.currentLocation = myCoorDinate;
             
             [self addAnnotationWithLatitude:myCoorDinate.latitude Longitude:myCoorDinate.longitude];
             
@@ -201,6 +283,22 @@
         _gpsLocationBtn = ret;
     }
     return _gpsLocationBtn;
+}
+
+- (UIButton*)navButton
+{
+    if (!_navButton) {
+        UIButton *navButton = [[UIButton alloc] init];
+        navButton.backgroundColor = [UIColor orangeColor];
+        [navButton setTitle:@"点我导航" forState:UIControlStateNormal];
+        navButton.titleLabel.font = [UIFont systemFontOfSize:10];
+        [navButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [navButton addTarget:self action:@selector(navButtonDidSelected:) forControlEvents:UIControlEventTouchUpInside];
+        navButton.clipsToBounds = YES;
+        navButton.layer.cornerRadius = 30.f;
+        _navButton = navButton;
+    }
+    return _navButton;
 }
 
 - (NSMutableArray *)pointArr

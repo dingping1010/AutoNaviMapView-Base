@@ -1,0 +1,9 @@
+use_frameworks!
+platform :ios, '9.0'
+target 'AutoNaviMapView-Base' do
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'pop', '~> 1.0'
+
+end
